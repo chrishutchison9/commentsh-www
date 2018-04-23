@@ -63,10 +63,6 @@ export default class IndexPage extends React.Component {
 }
 
 IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+
 }
 
