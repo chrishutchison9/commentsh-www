@@ -17,9 +17,9 @@ const Navbar = () => (
 
       </div>
       <div className="navbar-end">
-      <Link className="navbar-item" to="/about">
-          Login
-        </Link>
+      <a href="http://dashboard.comment.sh">
+          Login / Signup
+        </a>
       </div>
     </div>
   </nav>

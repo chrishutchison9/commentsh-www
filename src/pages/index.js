@@ -34,7 +34,7 @@ export default class IndexPage extends React.Component {
                 <section id="isso-thread"></section>
               </div>
               <div className="col-md-6 order-md-1 text-center text-md-left pr-md-5">
-                <ul>
+                <ul className="leadUl">
                   <li><h3 id="comments-written-in-markdown">Comments written in Markdown</h3>
 
                   <p>Users can edit or delete own comments (within 15 minutes by default).
@@ -51,7 +51,7 @@ export default class IndexPage extends React.Component {
                 </ul>
 
                 <div className="d-flex flex-column flex-md-row lead mb-3">
-                  <a href="/bootstrap-material-design/docs/4.0/getting-started/download/" className="btn btn-lg btn-secondary" >Free Signup</a>
+                  <a href="https://dashboard.comment.sh" className="btn btn-lg btn-secondary" >Free Signup</a>
                 </div>
               </div>
             </div>
