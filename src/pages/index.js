@@ -35,6 +35,7 @@ export default class IndexPage extends React.Component {
                   <li>Email notifications</li>
                   <li>Comments written in Markdown</li>
                   <li>Disqus &amp; WordPress Import</li>
+                  <li>Export SQlite database</li>
                   <li>Configurable JS client</li>
                 </ul>
 
