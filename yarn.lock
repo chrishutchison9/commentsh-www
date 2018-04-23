@@ -1420,6 +1420,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
+bootstrap@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.0.tgz#110b05c31a236d56dbc9adcda6dd16f53738a28a"
+
 bowser@^1.7.3:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.2.tgz#d66fc868ca5f4ba895bee1363c343fe7b37d3394"
