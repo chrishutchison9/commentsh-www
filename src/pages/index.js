@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
  
 
 
-            <div className="row align-items-center">
+            <div className="align-items-center">
 
               <div className="col-md-6 text-md-left">
               <h1 className="mb-3 bd-text-purple-bright">Lightweight hosted comments powered by Isso</h1>
