@@ -6,7 +6,7 @@ import logo from '../img/logo.svg'
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
-      <div className="navbar-brand">
+      <div className="row navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
             <img src={logo} alt="Kaldi" style={{ width: '120px' }} />
