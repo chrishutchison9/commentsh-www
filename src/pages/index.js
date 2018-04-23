@@ -28,7 +28,7 @@ export default class IndexPage extends React.Component {
 
 
             <div className="row align-items-center">
-              <div className="col-6 mx-auto col-md-6 order-md-2">
+              <div className="col-11 mx-auto col-md-6 order-md-2">
                 <script data-isso="https://comments.comment.sh/comment-sh" src="https://comments.comment.sh/comment-sh/js/embed.min.js"></script>
 
                 <section id="isso-thread"></section>
