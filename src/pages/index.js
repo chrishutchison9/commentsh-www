@@ -20,24 +20,24 @@ export default class IndexPage extends React.Component {
 
  
 
-            <div className="row align-items-center">
-              <div className="col-12 mx-auto col-md-12">
-                <h1 className="mb-3 bd-text-purple-bright text-center">Lightweight hosted comments powered by Isso</h1>
-              </div>
-            </div>
-
 
             <div className="row align-items-center">
               <div className="col-11 mx-auto col-md-6 order-md-2">
-                <script data-isso="https://comments.comment.sh/comment-sh" src="https://comments.comment.sh/comment-sh/js/embed.min.js"></script>
-
                 <section id="isso-thread"></section>
               </div>
-              <div className="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+              <div className="col-md-6 order-md-1 text-md-left pr-md-5">
+              <h1 className="mb-3 bd-text-purple-bright">Lightweight hosted comments powered by Isso</h1>
+
+                <h5>A Disqus alternative without the bloat and ads. Communicate with your readers with a comment box that is elegant and lightweight with a focus on privacy. Setup on your site in minutes. Just embed a script tag and be done - perfect for static sites.</h5>
+
+                <h3 class="card-title">Features</h3>
+
                 <ul className="leadUl">
-                  <li><h3 id="comments-written-in-markdown">Comments written in Markdown</h3>
-                  <li><h3 id="disqus-wordpress-import">Disqus &amp; WordPress Import</h3>
-                  <li><h3 id="configurable-js-client">Configurable JS client</h3></li>
+                  <li>Moderation</li>
+                  <li>Email notifications</li>
+                  <li>Comments written in Markdown</li>
+                  <li>Disqus &amp; WordPress Import</li>
+                  <li>Configurable JS client</li>
                 </ul>
 
                 <div className="d-flex flex-column flex-md-row lead mb-3">
