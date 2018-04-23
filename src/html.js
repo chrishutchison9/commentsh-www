@@ -7,12 +7,11 @@ if (process.env.NODE_ENV === `production`) {
   } catch (e) {
     console.log(e)
   }
-}<!-- Global site tag (gtag.js) - Google Analytics -->
+}
 
 
 module.exports = class HTML extends React.Component {
   render() {
-    const myExtScript = require('../pathToMyScript/myScript')  
     let css
     if (process.env.NODE_ENV === `production`) {
       css = (
@@ -44,9 +43,9 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <footer class="footer">
-            <div class="container">
-              <span class="text-muted">&copy; 2018 Comment.sh | <a href="mailto:contact@comment.sh">contact@comment.sh</a></span>
+          <footer className="footer">
+            <div className="container">
+              <span className="text-muted">&copy; 2018 Comment.sh | <a href="mailto:contact@comment.sh">contact@comment.sh</a></span>
             </div>
           </footer>
         </body>
