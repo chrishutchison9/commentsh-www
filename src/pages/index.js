@@ -23,7 +23,7 @@ export default class IndexPage extends React.Component {
 
             <div className="row align-items-center">
 
-              <div className="col-md-6 order-md-1 text-md-left">
+              <div className="col-md-6 text-md-left">
               <h1 className="mb-3 bd-text-purple-bright">Lightweight hosted comments powered by Isso</h1>
 
                 <h5>A Disqus alternative without the bloat and ads. Communicate with your readers with a comment box that is elegant and lightweight with a focus on privacy. Setup on your site in minutes. Just embed a script tag and be done - perfect for static sites.</h5>
