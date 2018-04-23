@@ -7,10 +7,12 @@ if (process.env.NODE_ENV === `production`) {
   } catch (e) {
     console.log(e)
   }
-}
+}<!-- Global site tag (gtag.js) - Google Analytics -->
+
 
 module.exports = class HTML extends React.Component {
   render() {
+    const myExtScript = require('../pathToMyScript/myScript')  
     let css
     if (process.env.NODE_ENV === `production`) {
       css = (
