@@ -22,9 +22,7 @@ export default class IndexPage extends React.Component {
 
 
             <div className="row align-items-center">
-              <div className="col-11 mx-auto col-md-6 order-md-2">
-                <section id="isso-thread"></section>
-              </div>
+
               <div className="col-md-6 order-md-1 text-md-left pr-md-5">
               <h1 className="mb-3 bd-text-purple-bright">Lightweight hosted comments powered by Isso</h1>
 
@@ -43,6 +41,9 @@ export default class IndexPage extends React.Component {
                 <div className="d-flex flex-column flex-md-row lead mb-3">
                   <a href="https://dashboard.comment.sh" className="btn btn-lg btn-secondary" >Free Signup</a>
                 </div>
+              </div>
+              <div className="col-11 mx-auto col-md-6">
+                <section id="isso-thread"></section>
               </div>
             </div>
 
