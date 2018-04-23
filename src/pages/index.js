@@ -43,6 +43,7 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="col-11 mx-auto col-md-6">
+                <h4>Demo</h4>
                 <section id="isso-thread"></section>
               </div>
             </div>
