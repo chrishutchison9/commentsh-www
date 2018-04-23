@@ -9,6 +9,7 @@ if (process.env.NODE_ENV === `production`) {
   }
 }
 
+
 module.exports = class HTML extends React.Component {
   render() {
     let css
@@ -42,6 +43,11 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <footer className="footer">
+            <div className="container">
+              <span className="text-muted">&copy; 2018 Comment.sh | <a href="mailto:contact@comment.sh">contact@comment.sh</a></span>
+            </div>
+          </footer>
         </body>
       </html>
     )
