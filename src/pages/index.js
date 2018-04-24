@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
     return (
       <section className="section">
         <div className="container">
-            <div className="row align-items-center">
+            <div className="row">
 
               <div className="col-md-6 text-md-left">
               <h1 className="mb-3 bd-text-purple-bright">Lightweight hosted comments powered by Isso</h1>
@@ -30,8 +30,7 @@ export default class IndexPage extends React.Component {
                   <li>Moderation</li>
                   <li>Email notifications</li>
                   <li>Comments written in Markdown</li>
-                  <li>Disqus &amp; WordPress Import</li>
-                  <li>Export SQlite database</li>
+                  <li>Export comments SQlite database</li>
                   <li>Configurable JS client</li>
                 </ul>
 
