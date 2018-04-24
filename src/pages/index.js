@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
                   <a href="https://dashboard.comment.sh" className="btn btn-lg btn-secondary" >Free Signup</a>
                 </div>
               </div>
-              <div className="markdown-body col-11 mx-auto col-md-6">
+              <div className="demo col-11 mx-auto col-md-6">
                 <h4>Demo</h4>
                 <section id="isso-thread"></section>
               </div>
