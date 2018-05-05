@@ -17,34 +17,48 @@ export default class IndexPage extends React.Component {
     return (
       <section className="section">
         <div className="container">
-            <div className="row">
 
-              <div className="col-md-6 text-md-left">
-              <h1 className="mb-3 bd-text-purple-bright">Lightweight hosted comments powered by Isso</h1>
+            <h1 className="mb-5 text-center top-heading">Lightweight hosted comments</h1>
 
-                <h5>A Disqus alternative without the bloat and ads. Communicate with your readers with a comment box that is elegant and lightweight with a focus on privacy. Setup on your site in minutes. Just embed a script tag and be done - perfect for static sites.</h5>
 
-                <h3 class="card-title">Features</h3>
 
-                <ul className="leadUl">
-                  <li>Moderation</li>
-                  <li>Email notifications</li>
-                  <li>Comments written in Markdown</li>
-                  <li>Export comments SQlite database</li>
-                  <li>Configurable JS client</li>
-                </ul>
+        </div>
 
-                <div className="d-flex flex-column flex-md-row lead mb-3">
-                  <a href="https://dashboard.comment.sh" className="btn btn-lg btn-secondary" >Free Signup</a>
-                </div>
-              </div>
-              <div className="demo col-11 mx-auto col-md-6">
+        <div class="container">
+<div class="row">
+<div class="col-md-4">
+<div>
+<i class="fas fa-eye-slash fa-5x"></i>
+</div>
+
+<h2>Privacy</h2>
+<p class="text-center">There are zero external tracking scripts. We do not track or profile users.</p>
+</div>
+<div class="col-md-4">
+<div>
+<i class="fas fa-exclamation-triangle fa-5x"></i>
+</div>
+
+<h2>No ads</h2>
+<p class="text-center">Since we charge website owners to use our commenting platform, our business model does not depend on ads. </p>
+</div>
+<div class="col-md-4">
+<div >
+<i class="fas fa-bolt fa-5x"></i>
+
+<h2>Blazing fast</h2>
+<p class="text-center">Our focus on delivering a solid comments platform without ads and tracking enables us to use less resources without any compromises.</p>
+</div>
+</div>
+
+</div>
+</div>
+<div className="demo col-11 mx-auto col-md-6">
                 <h4>Demo</h4>
                 <section id="isso-thread"></section>
               </div>
-            </div>
 
-        </div>
+              
       </section>
     )
   }
