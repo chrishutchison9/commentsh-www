@@ -18,7 +18,7 @@ export default class IndexPage extends React.Component {
       <section className="section">
         <div className="container">
 
-            <h1 className="mb-5 text-center top-heading">Lightweight hosted comments</h1>
+            <h1 className="mb-5 text-center top-heading">Lightweight hosted commentst</h1>
 
 
 
