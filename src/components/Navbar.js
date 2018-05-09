@@ -14,7 +14,12 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-start">
-
+        <Link className="navbar-item" to="/about">
+          About
+        </Link>
+        <Link className="navbar-item" to="/products">
+          Products
+        </Link>
       </div>
       <div className="navbar-end">
       <a href="http://dashboard.comment.sh">
