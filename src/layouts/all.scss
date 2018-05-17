@@ -1,6 +1,6 @@
 
 // Body
-$body-bg: #F1ECE9;
+$body-bg: #fff;
 
 // Typography
 $font-family-sans-serif: "Raleway", sans-serif;
@@ -11,7 +11,12 @@ $theme-colors: (
         "primary": #A6A5A1
 );
 
-
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px
+) !default;
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -29,6 +34,17 @@ html {
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
+
+
+
+#header {
+  margin-bottom:20px;
+}
+
+.top-heading {
+  font-weight:400;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
